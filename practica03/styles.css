@@ -1,0 +1,30 @@
+body{
+    font-size: 2    0px;
+}
+.header{
+    height: 30vh;
+    background-color:rgb(111, 82, 26) ;
+}
+.menu{
+    height: 10vh;
+    background-color:rgb(0, 0, 51) ;
+}
+.centro{
+    display: grid;
+    grid-template-columns: repeat(2,1 fr);
+    grid-gap: 5px;
+}
+.contenido{
+    height: 50vh;
+    background-color:rgb(91, 17, 17) ;
+    grid-column: 1 / 4;
+}
+.publicidad{
+    height: 50vh;
+    background-color:rgb(0, 121, 113);
+    grid-column: 4 / 4;
+}
+.pie{
+    height: 10vh;
+    background-color:rgb(0, 0, 51) ;
+}
